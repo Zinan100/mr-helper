@@ -140,11 +140,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 [InlineKeyboardButton(text="➕️ Add me to your group ➕️", url="t.me/{}?startgroup=true".format(bot.username))
                 [InlineKeyboardButton(text="📢 channel 📢", url="https://t.me/moviespot00100")],[InlineKeyboardButton(text="💬Group 💬", url="https://t.me/moviespot001100")]
                 [InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
-          
-        await cmd.reply_photo(
-            photo="https://telegra.ph/file/f345e0efb6558e31733dc.jpg",(pic),
-            caption=START_MSG.format(cmd.from_user.mention),
-
+       
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
