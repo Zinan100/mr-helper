@@ -142,7 +142,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 [InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
           
                 reply_markup = InlineKeyboardMarkup(buttons) await message.reply_photo(
-                photo=https://telegra.ph/file/f345e0efb6558e31733dc.jpg,
+                photo = https://telegra.ph/file/f345e0efb6558e31733dc.jpg,
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
