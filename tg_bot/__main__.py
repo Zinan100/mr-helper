@@ -142,7 +142,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 [InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
           
         await cmd.reply_photo(
-            photo="https://telegra.ph/file/f345e0efb6558e31733dc.jpg,(pic)",
+            photo="https://telegra.ph/file/f345e0efb6558e31733dc.jpg",(pic),
             caption=START_MSG.format(cmd.from_user.mention),
 
     else:
