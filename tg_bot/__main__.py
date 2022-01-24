@@ -149,6 +149,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
