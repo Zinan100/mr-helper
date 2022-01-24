@@ -138,7 +138,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup((
                 [InlineKeyboardButton(text="➕️ Add me to your group ➕️", url="t.me/{}?startgroup=true".format(bot.username))
-                [InlineKeyboardButton(text="📢 channel 📢", url="https://t.me/moviespot00100"),[InlineKeyboardButton(text="💬Group 💬", url="https://t.me/moviespot001100")]
+                [InlineKeyboardButton(text="📢 channel 📢", url="https://t.me/moviespot00100")],[InlineKeyboardButton(text="💬Group 💬", url="https://t.me/moviespot001100")]
                 [InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]))
           
                 reply_markup = InlineKeyboardMarkup(buttons) await message.reply_photo(
